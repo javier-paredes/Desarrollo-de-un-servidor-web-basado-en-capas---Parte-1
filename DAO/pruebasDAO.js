@@ -1,6 +1,6 @@
 const minimist = require('minimist')
-const controllerProductos = require('./controllers/controllerProducto');
-require('./database/connection');
+const controllerProductos = require('../controllers/controllerProducto');
+require('../database/connection');
 
 async function ejecutarCMDs() {
     const argv = minimist(process.argv.slice(2))
