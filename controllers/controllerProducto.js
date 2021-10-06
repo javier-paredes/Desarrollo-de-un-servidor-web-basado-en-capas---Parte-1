@@ -1,4 +1,4 @@
-const DAOFactory = require('../dao/DAOFactory');
+const DAOFactory = require('../models/dao/DAOFactory');
 const config = require('../config/config.json')
 
 class ControllerProductos {
